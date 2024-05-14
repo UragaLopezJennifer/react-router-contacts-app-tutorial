@@ -230,8 +230,8 @@ i {
 }
 
 #sidebar nav a.active {
-  background: hsl(224, 98%, 58%);
-  color: white;
+  background: hsl(308, 67%, 91%);
+  color: rgb(15, 15, 15);
 }
 
 #sidebar nav a.pending {
@@ -288,7 +288,7 @@ i {
 #contact img {
   width: 12rem;
   height: 12rem;
-  background: #c8c8c8;
+  background: #bbb8b8;
   margin-right: 2rem;
   border-radius: 1.5rem;
   object-fit: cover;
@@ -334,7 +334,7 @@ i {
 #contact-form-avatar img {
   width: 12rem;
   height: 12rem;
-  background: hsla(0, 0%, 0%, 0.2);
+  background: hsla(0, 0%, 4%, 0.2);
   border-radius: 1rem;
 }
 
