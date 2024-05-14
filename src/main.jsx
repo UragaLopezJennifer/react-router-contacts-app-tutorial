@@ -2,6 +2,7 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import ErrorPage from "./error-page";
+import Index from "./routes/index";
 import { action as destroyAction } from "./routes/destroy";
 
 import EditContact, {
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
     loader: rootLoader,
     action: rootAction,
     children: [
+      { index: true, element: <Index /> },
       {
         path: "contacts/:contactId",
         element: <Contact />,
